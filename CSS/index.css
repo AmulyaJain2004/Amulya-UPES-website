@@ -3,109 +3,62 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-body {
-    /* background-color: white; */
-    padding: 0;
-    margin: 0;
-}
 /*---------------header section-----------------*/
 header {
-    font-family: Arial, Helvetica, sans-serif;
-    /* padding-left: 15px;
-    padding-right: 15px; */
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
 }
 
-nav {
+.additional {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.logo {
-    height: 80px;
-    width: 200px;
-}
-
-nav li {
-    list-style: none;
-    display: inline-block;
-}
-
-nav li a {
-    color: rgb(39, 215, 215);
-    font-size: 18px;
-    font-weight: bold;
-    margin-right: 25px;
-    text-decoration: none;
-}
-
-#general_nav{
+.top-nav {
     background-color: black;
-    display: flex;
-    align-items: right;
 }
 
-#main_nav{
-    background-color: white;
+.top-nav a {
+    color: white;
+}
+
+.top-nav a:hover {
+    color: white;
+    font-weight: bold;
+}
+
+.bottom-nav {
+    padding: 15px;
+}
+
+.bottom-nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.bottom-nav li {
+    list-style: none;
+}
+
+.bottom-nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.bottom-nav a:hover {
+    color: black;
+    font-weight: bold;
+}
+
+.logo img {
+    height: 60px;
+    width: 180px;
 }
 /*----------------------------------------------*/
 
 /*---------------main section-----------------*/
-.carousel {
-    position: relative;
-    margin: auto;
-    overflow: hidden;
-}
 
-.slides {
-    display: flex;
-    transition: transform 0.5s ease-in-out;
-}
-
-.slide {
-    min-width: 100%;
-    box-sizing: border-box;
-}
-
-img {
-    width: 100%;
-    height: auto;
-}
-
-input[type="radio"] {
-    display: none;
-}
-
-#slide1:checked ~ .slides {
-    transform: translateX(0%);
-}
-
-#slide2:checked ~ .slides {
-    transform: translateX(-100%);
-}
-
-#slide3:checked ~ .slides {
-    transform: translateX(-200%);
-}
-
-#slide4:checked ~ .slides {
-    transform: translateX(-300%);
-}
-
-.controls {
-    position: absolute;
-    top: 50%;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    transform: translateY(-50%);
-}
-
-.control {
-    background: rgba(0, 0, 0, 0.5);
-    color: white;
-    padding: 10px;
-    cursor: pointer;
-}
 /*--------------------------------------------*/
