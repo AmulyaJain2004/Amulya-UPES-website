@@ -26,12 +26,14 @@ header {
 
 .top-nav a {
     color: white;
+    text-decoration: none;
     transition: .3s;
 }
 
 .top-nav a:hover {
-    color: rgb(255, 206, 47);
+    color: rgb(255, 47, 47);
     font-weight: bold;
+    animation: ColorTransition 3s ease 0s infinite;
 }
 
 .bottom-nav {
@@ -63,6 +65,7 @@ header {
 .bottom-nav a:hover {
     color: black;
     font-weight: bold;
+    animation: ColorTransition 3s ease 0s infinite;
 }
 
 .logo {
@@ -81,22 +84,7 @@ header {
     margin: auto;
     overflow: hidden;
 }
-
-@-webkit-keyframes fadeIn {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
-}
-
-@keyframes fadeIn {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
-}
-
-.carousel-item img {
-    -webkit-animation: fadeIn 1s ease-in-out;
-    animation: fadeIn 1s ease-in-out;
-}
-
+/*---------------------------*/
 .carousel-item img {
     animation: fadeIn 1s ease-in-out;
     -webkit-animation: fadeIn 1s ease-in-out;
@@ -107,5 +95,41 @@ header {
 .carousel-item img:hover {
     transform: scale(1.05);
     -webkit-transform: scale(1.05);
+}
+
+.logo img:hover {
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+@keyframes ColorTransition {
+    0% {
+        background-color: red;
+    }
+    20% {
+        background-color: orange;
+    }
+    40%{
+        background-color: brown;
+    }
+    60% {
+        background-color: blue;
+    }
+    80% {
+        background-color: green;
+    }
+    100% {
+        background-color: purple;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
 }
 /*--------------------------------------------*/
