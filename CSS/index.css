@@ -3,10 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 /*---------------header section-----------------*/
 header {
     font-family: Roboto, sans-serif;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .additional {
@@ -25,15 +26,21 @@ header {
 
 .top-nav a {
     color: white;
+    transition: .3s;
 }
 
 .top-nav a:hover {
-    color: white;
+    color: rgb(255, 206, 47);
     font-weight: bold;
 }
 
 .bottom-nav {
+    background-color: rgb(235, 236, 236);
     padding: 15px;
+    background-image: linear-gradient(to bottom, rgba(255,0,0,0), rgba(255,0,0,1));
+    background: linear-gradient(217deg,rgba(255, 0, 55, 0.8),rgb(255 0 0 / 0%) 70.71%),
+    linear-gradient(127deg, rgba(0, 213, 255, 0.8), rgb(0 255 0 / 0%) 70.71%),
+    linear-gradient(336deg, rgba(255, 0, 0, 0.8), rgb(0 0 255 / 0%) 70.71%);
 }
 
 .bottom-nav ul {
@@ -50,6 +57,7 @@ header {
 .bottom-nav a {
     text-decoration: none;
     color: black;
+    transition: .3s;
 }
 
 .bottom-nav a:hover {
@@ -65,8 +73,44 @@ header {
     height: 30%;
     width: 80%;
 }
-/*----------------------------------------------*/
-
+/*--------------------------------------------*/
 /*---------------main section-----------------*/
+.carousel {
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+}
 
+@-webkit-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.carousel-item img {
+    -webkit-animation: fadeIn 1s ease-in-out;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.carousel-item img {
+    animation: fadeIn 1s ease-in-out;
+    -webkit-animation: fadeIn 1s ease-in-out;
+    transition: transform 0.5s ease;
+    -webkit-transition: transform 0.5s ease;
+}
+
+.carousel-item img:hover {
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+}
+
+button:hover {
+    background-color: #e0dfdf;
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+}
 /*--------------------------------------------*/
