@@ -74,6 +74,7 @@ header {
     width: 80%;
 }
 /*--------------------------------------------*/
+
 /*---------------main section-----------------*/
 .carousel {
     position: relative;
@@ -104,12 +105,6 @@ header {
 }
 
 .carousel-item img:hover {
-    transform: scale(1.05);
-    -webkit-transform: scale(1.05);
-}
-
-button:hover {
-    background-color: #e0dfdf;
     transform: scale(1.05);
     -webkit-transform: scale(1.05);
 }
