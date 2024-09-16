@@ -22,6 +22,7 @@ header {
 
 .top-nav ul {
     gap: 15px;
+    list-style: none;
 }
 
 .top-nav a {
@@ -31,9 +32,8 @@ header {
 }
 
 .top-nav a:hover {
-    color: rgb(255, 47, 47);
+    color: white;
     font-weight: bold;
-    animation: ColorTransition 3s ease 0s infinite;
 }
 
 .bottom-nav {
@@ -65,7 +65,6 @@ header {
 .bottom-nav a:hover {
     color: black;
     font-weight: bold;
-    animation: ColorTransition 3s ease 0s infinite;
 }
 
 .logo {
@@ -105,27 +104,6 @@ header {
 @keyframes fadeIn {
     0% { opacity: 0; }
     100% { opacity: 1; }
-}
-
-@keyframes ColorTransition {
-    0% {
-        background-color: red;
-    }
-    20% {
-        background-color: orange;
-    }
-    40%{
-        background-color: brown;
-    }
-    60% {
-        background-color: blue;
-    }
-    80% {
-        background-color: green;
-    }
-    100% {
-        background-color: purple;
-    }
 }
 
 @-webkit-keyframes fadeIn {
