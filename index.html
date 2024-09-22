@@ -179,6 +179,102 @@
             margin-bottom: 20px;
         }
     </style>
+    <style>
+        .section-header {
+            margin-bottom: 30px;
+            font-weight: bold;
+            font-family: 'Montserrat', sans-serif;
+            letter-spacing: 2px;
+        }
+    
+        /* General container padding */
+        .container {
+            padding: 60px 0;
+        }
+    
+        /* Gradient background for student outcomes section */
+        .outcomes-section {
+            background: linear-gradient(135deg, #ffc6c6, #7bfef5);
+            color: rgb(0, 0, 0);
+            padding: 70px 0;
+        }
+    
+        .outcomes-section h2 {
+            font-size: 2.8rem;
+            margin-bottom: 20px;
+        }
+    
+        .outcomes-section p {
+            font-size: 1.2rem;
+            margin-bottom: 40px;
+        }
+    
+        .outcome-item {
+            margin-bottom: 40px;
+        }
+    
+        .outcome-item h4 {
+            font-size: 1.5rem;
+            margin-top: 20px;
+        }
+    
+        .outcome-item i {
+            color: #fff;
+            transition: transform 0.3s ease;
+        }
+    
+        .outcome-item:hover i {
+            transform: scale(1.2);
+        }
+    
+        /* Campus Life Section with dark overlay */
+        .campus-section {
+            background: linear-gradient(135deg, #ffa6ca, #f9ffa1);
+            background-size: cover;
+            color: white;
+            padding: 70px 0;
+        }
+    
+        .campus-section h2 {
+            font-size: 2.8rem;
+            margin-bottom: 20px;
+            color: white;
+        }
+    
+        .campus-section p {
+            font-size: 1.2rem;
+            margin-bottom: 40px;
+        }
+    
+        .event-card {
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            padding: 25px;
+            color: white;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+    
+        .event-card:hover {
+            background-color: rgba(255, 255, 255, 0.3);
+            transform: scale(1.05);
+        }
+    
+        /* Buttons with gradients */
+        .btn-custom {
+            background: linear-gradient(to right, #43cea2, #185a9d);
+            color: white;
+            border-radius: 50px;
+            padding: 12px 25px;
+            font-weight: bold;
+            letter-spacing: 1px;
+            transition: background 0.3s ease, box-shadow 0.3s ease;
+        }
+    
+        .btn-custom:hover {
+            background: linear-gradient(to right, #ff7e5f, #feb47b);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+    </style>
 </head>
 
 <body>
@@ -297,49 +393,49 @@
                 <div class="row justify-content-center">
                     <div class="col-md-4 mb-4">
                         <div class="school-card">
-                            <img src="https://via.placeholder.com/350x150" alt="School of Computer Science" class="school-img">
+                            <img src="assets/socs.png" alt="School of Computer Science" class="school-img">
                             <h4>School of Computer Science</h4>
                             <p>Pioneering in AI, machine learning, and software development to shape the future of technology.</p>
                         </div>
                     </div>
                     <div class="col-md-4 mb-4">
                         <div class="school-card">
-                            <img src="https://via.placeholder.com/350x150" alt="School of Advanced Engineering" class="school-img">
+                            <img src="assets/soae.png" alt="School of Advanced Engineering" class="school-img">
                             <h4>School of Advanced Engineering</h4>
                             <p>State-of-the-art labs and real-world applications focusing on cutting-edge engineering innovations.</p>
                         </div>
                     </div>
                     <div class="col-md-4 mb-4">
                         <div class="school-card">
-                            <img src="https://via.placeholder.com/350x150" alt="School of Business" class="school-img">
+                            <img src="assets/sob.png" alt="School of Business" class="school-img">
                             <h4>School of Business</h4>
                             <p>Transforming business education through innovation, leadership, and real-world problem-solving.</p>
                         </div>
                     </div>
                     <div class="col-md-4 mb-4">
                         <div class="school-card">
-                            <img src="https://via.placeholder.com/350x150" alt="School of Health Science" class="school-img">
+                            <img src="assets/sohs.png" alt="School of Health Science" class="school-img">
                             <h4>School of Health Science</h4>
                             <p>Advancing medical research and healthcare education to improve global health.</p>
                         </div>
                     </div>
                     <div class="col-md-4 mb-4">
                         <div class="school-card">
-                            <img src="https://via.placeholder.com/350x150" alt="School of Law" class="school-img">
+                            <img src="assets/sol.png" alt="School of Law" class="school-img">
                             <h4>School of Law</h4>
                             <p>Developing tomorrow's legal experts with a focus on justice, ethics, and social responsibility.</p>
                         </div>
                     </div>
                     <div class="col-md-4 mb-4">
                         <div class="school-card">
-                            <img src="https://via.placeholder.com/350x150" alt="School of Design" class="school-img">
+                            <img src="assets/sod.png" alt="School of Design" class="school-img">
                             <h4>School of Design</h4>
                             <p>Creating innovative designers who shape experiences and solve complex human problems through design thinking.</p>
                         </div>
                     </div>
                     <div class="col-md-4 mb-4">
                         <div class="school-card">
-                            <img src="https://via.placeholder.com/350x150" alt="School of Modern Media" class="school-img">
+                            <img src="assets/somm.png" alt="School of Modern Media" class="school-img">
                             <h4>School of Modern Media</h4>
                             <p>Empowering students to navigate the fast-evolving media landscape through creativity and technology.</p>
                         </div>
@@ -348,12 +444,12 @@
             </div>
         </section>
 
-        <section class="faculty-section text-center py-5">
+        <!-- <section class="faculty-section text-center py-5">
             <div class="container">
                 <h2 class="mb-4">Meet Our Esteemed Faculty</h2>
                 <p class="mb-5 text-muted">Learn from industry-leading professors and researchers who bring a wealth of knowledge and experience to help you succeed.</p>
                 <div class="row">
-                    <!-- Faculty Member 1 -->
+                    Faculty Member 1
                     <div class="col-md-4">
                         <div class="card shadow-sm">
                             <img src="faculty1.jpg" class="card-img-top" alt="Professor 1">
@@ -365,7 +461,7 @@
                             </div>
                         </div>
                     </div>
-                    <!-- Faculty Member 2 -->
+                    Faculty Member 2
                     <div class="col-md-4">
                         <div class="card shadow-sm">
                             <img src="faculty2.jpg" class="card-img-top" alt="Professor 2">
@@ -377,7 +473,7 @@
                             </div>
                         </div>
                     </div>
-                    <!-- Faculty Member 3 -->
+                    Faculty Member 3
                     <div class="col-md-4">
                         <div class="card shadow-sm">
                             <img src="faculty3.jpg" class="card-img-top" alt="Professor 3">
@@ -391,22 +487,68 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         
 
-        <section class="text-center">
-            <div class="container">
-                <h2>Student Outcomes & Success Stories</h2>
-                <p>Our alumni are changing the world in various industries and fields.</p>
-            </div>
-        </section>
+        <!-- Enhanced HTML Sections -->
+<section class="text-center outcomes-section">
+    <div class="container">
+        <h2 class="section-header">Student Outcomes & Success Stories</h2>
+        <p>Our alumni are changing the world in various industries and fields. See how our graduates are making a difference globally.</p>
 
-        <section class="text-center">
-            <div class="container">
-                <h2>Campus Life & Events</h2>
-                <p>Engage in vibrant campus life and attend global events.</p>
+        <!-- Success stories listed -->
+        <div class="row">
+            <div class="col-md-4 outcome-item">
+                <i class="fas fa-rocket fa-3x mb-3"></i>
+                <h4>Space Exploration</h4>
+                <p>Alumni working at leading space agencies like NASA and ISRO.</p>
             </div>
-        </section>
+            <div class="col-md-4 outcome-item">
+                <i class="fas fa-heartbeat fa-3x mb-3"></i>
+                <h4>Healthcare Innovation</h4>
+                <p>Contributing to breakthroughs in medical technology and treatment.</p>
+            </div>
+            <div class="col-md-4 outcome-item">
+                <i class="fas fa-industry fa-3x mb-3"></i>
+                <h4>Industrial Leadership</h4>
+                <p>Leading global businesses and industries with cutting-edge innovations.</p>
+            </div>
+        </div>
+
+        <a href="#" class="btn btn-custom mt-4">Read More Success Stories</a>
+    </div>
+</section>
+
+<section class="text-center campus-section">
+    <div class="container">
+        <h2 class="section-header">Campus Life & Events</h2>
+        <p>Engage in vibrant campus life and attend global events. Experience an inspiring environment for your academic and personal growth.</p>
+
+        <!-- Event cards -->
+        <div class="row">
+            <div class="col-md-4">
+                <div class="event-card">
+                    <h5>Annual Science Expo</h5>
+                    <p>Showcase innovative projects and research, and connect with industry leaders.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="event-card">
+                    <h5>Global Tech Conference</h5>
+                    <p>Participate in workshops and lectures from world-renowned experts in technology.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="event-card">
+                    <h5>Entrepreneurship Summit</h5>
+                    <p>Join entrepreneurs and investors to pitch ideas and start ventures.</p>
+                </div>
+            </div>
+        </div>
+
+        <a href="#" class="btn btn-custom mt-4">Explore Campus Events</a>
+    </div>
+</section>
     </main>
 
     <footer class="footer text-center">
