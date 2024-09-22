@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 
-/*---------------header section-----------------*/
 header {
     font-family: Roboto, sans-serif;
     font-size: 16px;
@@ -31,27 +30,20 @@ header {
     transition: .3s;
 }
 
-.top-nav a::after {
-    content: '';
-    width: 0%;
-    height: 2px;
-    background: linear-gradient(90deg, #eff1f4 0%, #f9a91a 30%, #eb0e58 60%, #3f91c1 90%);
-    display: block;
-    margin: auto;
-    transition: 0.5s;
-}
-
-.top-nav a:hover::after {
+.top-nav a:hover {
     font-weight: bold;
-    width: 100%;
 }
 
 .bottom-nav {
-    background-color: rgb(235, 236, 236);
+    background-color: rgba(255, 255, 255, 0.2); 
     padding: 15px;
     background-image: linear-gradient(to bottom, rgba(255,0,0,0), rgba(255,0,0,1));
-    background-color: white;
+    background: linear-gradient(90deg, rgba(239, 241, 244, 0.3) 0%, rgba(249, 169, 26, 0.3) 30%, rgba(235, 14, 88, 0.3) 60%, rgba(63, 145, 193, 0.3) 90%);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px); 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
 }
+
 
 .bottom-nav ul {
     display: flex;
@@ -82,15 +74,13 @@ header {
     height: 30%;
     width: 80%;
 }
-/*--------------------------------------------*/
 
-/*---------------main section-----------------*/
+/*----------------------------------------*/
 .carousel {
     position: relative;
     margin: auto;
     overflow: hidden;
 }
-/*---------------------------*/
 .carousel-item img {
     animation: fadeIn 1s ease-in-out;
     -webkit-animation: fadeIn 1s ease-in-out;
@@ -117,4 +107,57 @@ header {
     0% { opacity: 0; }
     100% { opacity: 1; }
 }
-/*--------------------------------------------*/
+/*----------------------------*/
+.department-section h4::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: linear-gradient(90deg, #eff1f4 0%, #f9a91a 30%, #eb0e58 60%, #3f91c1 90%);
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.department-section h4:hover::after{
+    width: 100%;
+}
+
+/*----------------------------*/
+.faculty-section {
+    background-color: #f8f9fa;
+}
+
+.faculty-section h2 {
+    font-weight: 700;
+    color: #343a40;
+}
+
+.faculty-section .card {
+    border: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.faculty-section .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.faculty-section .card-img-top {
+    height: 250px;
+    object-fit: cover;
+}
+
+.faculty-section .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.faculty-section .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+/*----------------------------*/
+
+
+/*----------------------------*/
