@@ -274,9 +274,44 @@
             background: linear-gradient(to right, #ff7e5f, #feb47b);
             box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
         }
-    </style>
-</head>
+    </style><style>
+    .campus-section {
+        background-color: #f9f9f9;
+    }
+    
+    .section-header {
+        color: #333;
+        font-weight: 700;
+    }
 
+    .event-card h5 {
+        color: #2c3e50;
+    }
+
+    .event-card p {
+        color: #7f8c8d;
+    }
+
+    .btn-custom {
+        background-color: #2980b9;
+        color: white;
+    }
+
+    .btn-custom:hover {
+        background-color: #3498db;
+        color: white;
+    }
+
+    .img-fluid {
+        width: 100%;
+        height: auto;
+    }
+
+    .rounded {
+        border-radius: 10px;
+    }
+</style>
+</head>
 <body>
     <header class="container-fluid m-0 p-0 heading">
         <nav class="top-nav">
@@ -385,166 +420,189 @@
                     </div>
                 </div>
             </div>
-        </section>
+          </section>
 
-        <section class="department-section text-center">
-            <div class="container">
-                <h2>Our Schools</h2>
-                <div class="row justify-content-center">
-                    <div class="col-md-4 mb-4">
-                        <div class="school-card">
-                            <img src="assets/socs.png" alt="School of Computer Science" class="school-img">
-                            <h4>School of Computer Science</h4>
-                            <p>Pioneering in AI, machine learning, and software development to shape the future of technology.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-4">
-                        <div class="school-card">
-                            <img src="assets/soae.png" alt="School of Advanced Engineering" class="school-img">
-                            <h4>School of Advanced Engineering</h4>
-                            <p>State-of-the-art labs and real-world applications focusing on cutting-edge engineering innovations.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-4">
-                        <div class="school-card">
-                            <img src="assets/sob.png" alt="School of Business" class="school-img">
-                            <h4>School of Business</h4>
-                            <p>Transforming business education through innovation, leadership, and real-world problem-solving.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-4">
-                        <div class="school-card">
-                            <img src="assets/sohs.png" alt="School of Health Science" class="school-img">
-                            <h4>School of Health Science</h4>
-                            <p>Advancing medical research and healthcare education to improve global health.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-4">
-                        <div class="school-card">
-                            <img src="assets/sol.png" alt="School of Law" class="school-img">
-                            <h4>School of Law</h4>
-                            <p>Developing tomorrow's legal experts with a focus on justice, ethics, and social responsibility.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-4">
-                        <div class="school-card">
-                            <img src="assets/sod.png" alt="School of Design" class="school-img">
-                            <h4>School of Design</h4>
-                            <p>Creating innovative designers who shape experiences and solve complex human problems through design thinking.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-4">
-                        <div class="school-card">
-                            <img src="assets/somm.png" alt="School of Modern Media" class="school-img">
-                            <h4>School of Modern Media</h4>
-                            <p>Empowering students to navigate the fast-evolving media landscape through creativity and technology.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- <section class="faculty-section text-center py-5">
-            <div class="container">
-                <h2 class="mb-4">Meet Our Esteemed Faculty</h2>
-                <p class="mb-5 text-muted">Learn from industry-leading professors and researchers who bring a wealth of knowledge and experience to help you succeed.</p>
-                <div class="row">
-                    Faculty Member 1
-                    <div class="col-md-4">
-                        <div class="card shadow-sm">
-                            <img src="faculty1.jpg" class="card-img-top" alt="Professor 1">
-                            <div class="card-body">
-                                <h5 class="card-title">Dr. John Doe</h5>
-                                <p class="card-text text-muted">Professor of Computer Science</p>
-                                <p>Expert in AI & Machine Learning</p>
-                                <a href="#" class="btn btn-primary btn-sm">View Profile</a>
-                            </div>
-                        </div>
-                    </div>
-                    Faculty Member 2
-                    <div class="col-md-4">
-                        <div class="card shadow-sm">
-                            <img src="faculty2.jpg" class="card-img-top" alt="Professor 2">
-                            <div class="card-body">
-                                <h5 class="card-title">Dr. Jane Smith</h5>
-                                <p class="card-text text-muted">Professor of Physics</p>
-                                <p>Specialist in Quantum Computing</p>
-                                <a href="#" class="btn btn-primary btn-sm">View Profile</a>
-                            </div>
-                        </div>
-                    </div>
-                    Faculty Member 3
-                    <div class="col-md-4">
-                        <div class="card shadow-sm">
-                            <img src="faculty3.jpg" class="card-img-top" alt="Professor 3">
-                            <div class="card-body">
-                                <h5 class="card-title">Dr. Emily Davis</h5>
-                                <p class="card-text text-muted">Professor of Data Science</p>
-                                <p>Expert in Big Data Analytics</p>
-                                <a href="#" class="btn btn-primary btn-sm">View Profile</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> -->
+          <section class="department-section text-center">
+              <div class="container">
+                  <h2>Our Schools</h2>
+                  <div class="row justify-content-center">
+                      <div class="col-md-4 mb-4">
+                          <div class="school-card">
+                              <img src="assets/socs.png" alt="School of Computer Science" class="school-img">
+                              <h4>School of Computer Science</h4>
+                              <p>Pioneering in AI, machine learning, and software development to shape the future of technology.</p>
+                          </div>
+                      </div>
+                      <div class="col-md-4 mb-4">
+                          <div class="school-card">
+                              <img src="assets/soae.png" alt="School of Advanced Engineering" class="school-img">
+                              <h4>School of Advanced Engineering</h4>
+                              <p>State-of-the-art labs and real-world applications focusing on cutting-edge engineering innovations.</p>
+                          </div>
+                      </div>
+                      <div class="col-md-4 mb-4">
+                          <div class="school-card">
+                              <img src="assets/sob.png" alt="School of Business" class="school-img">
+                              <h4>School of Business</h4>
+                              <p>Transforming business education through innovation, leadership, and real-world problem-solving.</p>
+                          </div>
+                      </div>
+                      <div class="col-md-4 mb-4">
+                          <div class="school-card">
+                              <img src="assets/sohs.png" alt="School of Health Science" class="school-img">
+                              <h4>School of Health Science</h4>
+                              <p>Advancing medical research and healthcare education to improve global health.</p>
+                          </div>
+                      </div>
+                      <div class="col-md-4 mb-4">
+                          <div class="school-card">
+                              <img src="assets/sol.png" alt="School of Law" class="school-img">
+                              <h4>School of Law</h4>
+                              <p>Developing tomorrow's legal experts with a focus on justice, ethics, and social responsibility.</p>
+                          </div>
+                      </div>
+                      <div class="col-md-4 mb-4">
+                          <div class="school-card">
+                              <img src="assets/sod.png" alt="School of Design" class="school-img">
+                              <h4>School of Design</h4>
+                              <p>Creating innovative designers who shape experiences and solve complex human problems through design thinking.</p>
+                          </div>
+                      </div>
+                      <div class="col-md-4 mb-4">
+                          <div class="school-card">
+                              <img src="assets/somm.png" alt="School of Modern Media" class="school-img">
+                              <h4>School of Modern Media</h4>
+                              <p>Empowering students to navigate the fast-evolving media landscape through creativity and technology.</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </section>
         
-      <section class="text-center outcomes-section">
-          <div class="container">
-              <h2 class="section-header">Student Outcomes & Success Stories</h2>
-              <p>Our alumni are changing the world in various industries and fields. See how our graduates are making a difference globally.</p>
+          <section class="text-center outcomes-section">
+            <div class="container">
+                <h2 class="section-header">Student Outcomes & Success Stories</h2>
+                <p>Our diverse alumni network is making an impact across industries, driving innovation, leadership, and social change around the globe. Discover how our graduates are contributing to a brighter future.</p>
+        
+                <div class="row">
+                    <div class="col-md-4 outcome-item">
+                        <i class="fas fa-rocket fa-3x mb-3"></i>
+                        <h4>Aerospace & Mechanical Engineering</h4>
+                        <p>Our graduates are leading space exploration at renowned institutions like NASA, ISRO, and SpaceX, working on cutting-edge projects like Mars rovers, space telescopes, and next-gen propulsion systems.</p>
+                    </div>
+                    <div class="col-md-4 outcome-item">
+                        <i class="fas fa-building fa-3x mb-3"></i>
+                        <h4>Civil & Environmental Engineering</h4>
+                        <p>Alumni are designing sustainable infrastructure, earthquake-resistant buildings, and eco-friendly urban development, improving lives in rapidly growing cities worldwide.</p>
+                    </div>
+                    <div class="col-md-4 outcome-item">
+                        <i class="fas fa-microchip fa-3x mb-3"></i>
+                        <h4>Electrical & Computer Engineering</h4>
+                        <p>From developing cutting-edge AI systems to revolutionizing renewable energy, our electrical engineers are shaping the future of technology and energy efficiency.</p>
+                    </div>
+                </div>
+        
+                <div class="row mt-4">
+                    <div class="col-md-4 outcome-item">
+                        <i class="fas fa-laptop-code fa-3x mb-3"></i>
+                        <h4>Computer Science & IT</h4>
+                        <p>Our computer science graduates are at the forefront of innovation, contributing to advancements in cloud computing, cybersecurity, and AI at tech giants like Google, Amazon, and Microsoft.</p>
+                    </div>
+                    <div class="col-md-4 outcome-item">
+                        <i class="fas fa-heartbeat fa-3x mb-3"></i>
+                        <h4>Healthcare & Biomedical Engineering</h4>
+                        <p>Innovating in medical technology, our graduates are developing life-saving treatments, cutting-edge diagnostic tools, and wearable health tech devices.</p>
+                    </div>
+                    <div class="col-md-4 outcome-item">
+                        <i class="fas fa-palette fa-3x mb-3"></i>
+                        <h4>Design & Modern Media</h4>
+                        <p>Our creative minds are transforming industries with groundbreaking work in UX/UI design, digital media production, and interactive storytelling, redefining how we experience the world.</p>
+                    </div>
+                </div>
+        
+                <div class="row mt-4">
+                    <div class="col-md-4 outcome-item">
+                        <i class="fas fa-briefcase fa-3x mb-3"></i>
+                        <h4>Business Management & Entrepreneurship</h4>
+                        <p>Our business graduates are leading global companies, launching successful startups, and driving corporate strategies that are shaping the world economy.</p>
+                    </div>
+                    <div class="col-md-4 outcome-item">
+                        <i class="fas fa-gavel fa-3x mb-3"></i>
+                        <h4>Law & Public Policy</h4>
+                        <p>Alumni in law and policy are advocating for social justice, influencing government policy, and serving in international organizations to uphold human rights and equality.</p>
+                    </div>
+                    <div class="col-md-4 outcome-item">
+                        <i class="fas fa-industry fa-3x mb-3"></i>
+                        <h4>Industrial Leadership</h4>
+                        <p>Our graduates are transforming global industries with cutting-edge innovations in manufacturing, operations management, and sustainable production practices.</p>
+                    </div>
+                </div>
+        
+                <a href="https://www.linkedin.com/school/upesdehradun/posts/?feedView=all" target="_blank" class="btn btn-custom mt-4">Read More</a>
+            </div>
+        </section>
 
-              <!-- Success stories listed -->
-              <div class="row">
-                  <div class="col-md-4 outcome-item">
-                      <i class="fas fa-rocket fa-3x mb-3"></i>
-                      <h4>Space Exploration</h4>
-                      <p>Alumni working at leading space agencies like NASA and ISRO.</p>
+        <section class="text-center campus-section py-5">
+          <div class="container">
+              <h2 class="section-header display-4">Campus Life & Events</h2>
+              <p class="lead">Engage in vibrant campus life and attend global events. A vibrant and inclusive community fostering personal growth, academic and extracurricular pursuits, and meaningful relationships. Experience an inspiring environment for your academic and personal growth.</p>
+      
+              <!-- Event Cards -->
+              <div class="row mt-5">
+                  <div class="col-md-4">
+                      <div class="card event-card shadow-sm h-100">
+                          <img src="assets/tech.png" class="card-img-top" alt="Science Expo">
+                          <div class="card-body">
+                              <h5 class="card-title">Hackathons</h5>
+                              <p class="card-text">Showcase your innovative projects and cutting-edge research. Connect with industry leaders and discover groundbreaking ideas shaping the future of science and technology.</p>
+                          </div>
+                      </div>
                   </div>
-                  <div class="col-md-4 outcome-item">
-                      <i class="fas fa-heartbeat fa-3x mb-3"></i>
-                      <h4>Healthcare Innovation</h4>
-                      <p>Contributing to breakthroughs in medical technology and treatment.</p>
+                  <div class="col-md-4">
+                      <div class="card event-card shadow-sm h-100">
+                          <img src="assets/global.png" class="card-img-top" alt="Tech Conference">
+                          <div class="card-body">
+                              <h5 class="card-title">Global Tech Conference</h5>
+                              <p class="card-text">Participate in hands-on workshops and insightful lectures from world-renowned experts in technology. Stay ahead with the latest trends in AI, machine learning, and software development.</p>
+                          </div>
+                      </div>
                   </div>
-                  <div class="col-md-4 outcome-item">
-                      <i class="fas fa-industry fa-3x mb-3"></i>
-                      <h4>Industrial Leadership</h4>
-                      <p>Leading global businesses and industries with cutting-edge innovations.</p>
+                  <div class="col-md-4">
+                      <div class="card event-card shadow-sm h-100">
+                          <img src="assets/startups.png" class="card-img-top" alt="Entrepreneurship Summit">
+                          <div class="card-body">
+                              <h5 class="card-title">Entrepreneurship Summit</h5>
+                              <p class="card-text">Join aspiring entrepreneurs and seasoned investors. Pitch your ideas, build networks, and launch your next big venture in a collaborative and high-energy environment.</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+      
+              <div class="mt-5">
+                  <h3 class="mb-4">Life at UPES - A Glimpse</h3>
+                  <div class="row">
+                      <div class="col-md-4 mb-4">
+                          <img src="assets/upes_glp1.png" class="img-fluid rounded shadow-sm" alt="Campus Image 1">
+                      </div>
+                      <div class="col-md-4 mb-4">
+                          <img src="assets/upes_glp2.png" class="img-fluid rounded shadow-sm" alt="Campus Image 2">
+                      </div>
+                      <div class="col-md-4 mb-4">
+                          <img src="assets/upes_glp3.png" class="img-fluid rounded shadow-sm" alt="Campus Image 3">
+                      </div>
+                      <div class="col-md-4 mb-4">
+                          <img src="assets/upes_glp4.png" class="img-fluid rounded shadow-sm" alt="Campus Image 4">
+                      </div>
+                      <div class="col-md-4 mb-4">
+                          <img src="assets/upes_glp5.png" class="img-fluid rounded shadow-sm" alt="Campus Image 5">
+                      </div>
+                      <div class="col-md-4 mb-4">
+                          <img src="assests/upes_glp6.png" class="img-fluid rounded shadow-sm" alt="Campus Image 6">
+                      </div>
                   </div>
               </div>
 
-              <a href="#" class="btn btn-custom mt-4">Read More Success Stories</a>
-          </div>
-      </section>
-
-      <section class="text-center campus-section">
-          <div class="container">
-              <h2 class="section-header">Campus Life & Events</h2>
-              <p>Engage in vibrant campus life and attend global events. Experience an inspiring environment for your academic and personal growth.</p>
-
-              <!-- Event cards -->
-              <div class="row">
-                  <div class="col-md-4">
-                      <div class="event-card">
-                          <h5>Annual Science Expo</h5>
-                          <p>Showcase innovative projects and research, and connect with industry leaders.</p>
-                      </div>
-                  </div>
-                  <div class="col-md-4">
-                      <div class="event-card">
-                          <h5>Global Tech Conference</h5>
-                          <p>Participate in workshops and lectures from world-renowned experts in technology.</p>
-                      </div>
-                  </div>
-                  <div class="col-md-4">
-                      <div class="event-card">
-                          <h5>Entrepreneurship Summit</h5>
-                          <p>Join entrepreneurs and investors to pitch ideas and start ventures.</p>
-                      </div>
-                  </div>
-              </div>
-
-              <a href="#" class="btn btn-custom mt-4">Explore Campus Events</a>
+              <a href="https://www.upes.ac.in/events-and-activities" class="btn btn-custom mt-4">Explore Campus Events</a>
           </div>
       </section>
     </main>
@@ -552,7 +610,7 @@
     <footer class="footer text-center">
         <div class="container">
             <div class="row">
-                <div class="col-md-3">
+                <div class="col-md-2">
                     <h5>Academics</h5>
                     <ul>
                         <li><a href="#">Undergraduate Programs</a></li>
@@ -560,7 +618,7 @@
                         <li><a href="#">Research</a></li>
                     </ul>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-2">
                     <h5>Admissions</h5>
                     <ul>
                         <li><a href="#">Apply</a></li>
@@ -568,7 +626,7 @@
                         <li><a href="#">International Students</a></li>
                     </ul>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-2">
                     <h5>About</h5>
                     <ul>
                         <li><a href="#">Our Mission</a></li>
@@ -576,7 +634,7 @@
                         <li><a href="#">History</a></li>
                     </ul>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-2">
                     <h5>Contact</h5>
                     <ul>
                         <li><a href="#">Email Us</a></li>
@@ -584,6 +642,14 @@
                         <li><a href="#">Support</a></li>
                     </ul>
                 </div>
+                <div class="col-md-2">
+                  <h5>Socialst</h5>
+                  <ul>
+                      <li><a href="#">Linked In</a></li>
+                      <li><a href="#">Twitter</a></li>
+                      <li><a href="#">Facebook</a></li>
+                  </ul>
+              </div>
             </div>
             <p class="mt-3">© 2024 University Of Petroleum and Energy Studies (UPES). All Rights Reserved.</p>
         </div>
@@ -594,9 +660,4 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="https://kit.fontawesome.com/c0cbf456a5.js" crossorigin="anonymous"></script>
 </body>
-
-<<<<<<< HEAD
 </html>
-=======
-</html>
->>>>>>> 1a7adc0f9aa7fcf40b246e15bf04e320de009d73
