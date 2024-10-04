@@ -2,12 +2,12 @@ const video = document.getElementById('logo-video');
 const splashScreen = document.getElementById('splash-screen');
 const mainContent = document.getElementById('main-content');
 
-// Once the video ends, hide the splash screen and show the main content
+// Jab video ends, hide the splash screen and display  the main content
 video.addEventListener('ended', () => {
     splashScreen.classList.add('fade-out');
     
     setTimeout(() => {
-        // Allow scrolling again
+        // Yeh Allow karega scrolling again
         document.body.style.overflow = 'auto';
         document.documentElement.style.overflow = 'auto';
 

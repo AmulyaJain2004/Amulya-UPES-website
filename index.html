@@ -19,33 +19,50 @@
 
     <div id="main-content" style="display: none;">
         <header class="container-fluid m-0 p-0 heading">
-            <nav class="top-nav">
+            <nav class="navbar navbar-expand-lg top-nav">
                 <div class="container-fluid m-0 px-4">
-                  <ul class="navbar justify-content-end m-0">
-                      <li class="nav-item mx-4"><a class="nav-link" href="https://www.upes.ac.in/students" target="">Students</a></li>                
-                      <li class="nav-item mx-4"><a class="nav-link" href="https://www.upes.ac.in/alumni" target="">Alumni</a></li>                
-                      <li class="nav-item mx-4"><a class="nav-link" href="https://www.upes.ac.in/parents" target="">Parents</a></li>                
-                      <li class="nav-item mx-4"><a class="nav-link" href="public/contact.html" target="">Contact Us</a></li>
-                      <li class="nav-item mx-4"><a class="nav-link" href="https://www.upes.ac.in/about-us" target="">About Us</a></li>
-                      <li class="nav-item mx-4"><a class="nav-link" href="https://www.upes.ac.in/blog" target="_blank">Blog</a></li>
-                      <li class="nav-item mx-4"><a class="nav-link" href="https://admission.upes.ac.in/login" target="">Applicant Login</a></li>
-                  </ul>
+                    <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTopContent" aria-controls="navbarTopContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarTopContent">
+                        <ul class="navbar-nav justify-content-end m-0">
+                            <li class="nav-item mx-4"><a class="nav-link" href="https://www.upes.ac.in/students" target="">Students</a></li>
+                            <li class="nav-item mx-4"><a class="nav-link" href="https://www.upes.ac.in/alumni" target="">Alumni</a></li>
+                            <li class="nav-item mx-4"><a class="nav-link" href="https://www.upes.ac.in/parents" target="">Parents</a></li>
+                            <li class="nav-item mx-4"><a class="nav-link" href="public/contact.html" target="">Contact Us</a></li>
+                            <li class="nav-item mx-4"><a class="nav-link" href="https://www.upes.ac.in/about-us" target="">About Us</a></li>
+                            <li class="nav-item mx-4"><a class="nav-link" href="https://www.upes.ac.in/blog" target="_blank">Blog</a></li>
+                            <li class="nav-item mx-4"><a class="nav-link" href="https://admission.upes.ac.in/login" target="">Applicant Login</a></li>
+                        </ul>
+                    </div>
                 </div>
             </nav>
-            <nav class="bottom-nav additional px-5" id="main_nav">
-                <div class="logo"><a class="nav-link" href="#"><img src="assets/UPES-logo.svg" alt="UPES logo"></a></div>
-                <ul class="navbar p-0 m-0">
-                    <li class="nav-item px-2"><a class="nav-link" href="#">Academics</a></li>
-                    <li class="nav-item px-2"><a class="nav-link" href="#">Admission</a></li>
-                    <li class="nav-item px-2"><a class="nav-link" href="#">Student Outcomes</a></li>
-                    <li class="nav-item px-2"><a class="nav-link" href="#">Placements</a></li>
-                    <li class="nav-item px-2"><a class="nav-link" href="#">Campus Life</a></li>
-                    <li class="nav-item px-2"><a class="nav-link" href="#">Research</a></li>
-                    <li class="nav-item px-2"><a class="nav-link" href="#"><button type="button" class="btn btn-outline-dark">Apply now</button></a></li>
-                    <li class="nav-item px-2"><a class="nav-link" href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
-                </ul>
+    
+            <!-- Bottom Navigation Bar -->
+            <nav class="navbar navbar-expand-lg bottom-nav additional px-5" id="main_nav">
+                <div class="container-fluid">
+                    <div class="logo">
+                        <a class="nav-link" href="#"><img src="assets/UPES-logo.svg" alt="UPES logo"></a>
+                    </div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarBottomContent" aria-controls="navbarBottomContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarBottomContent">
+                        <ul class="navbar-nav p-0 m-0">
+                            <li class="nav-item px-2"><a class="nav-link" href="#">Academics</a></li>
+                            <li class="nav-item px-2"><a class="nav-link" href="#">Admission</a></li>
+                            <li class="nav-item px-2"><a class="nav-link" href="#">Student Outcomes</a></li>
+                            <li class="nav-item px-2"><a class="nav-link" href="#">Placements</a></li>
+                            <li class="nav-item px-2"><a class="nav-link" href="#">Campus Life</a></li>
+                            <li class="nav-item px-2"><a class="nav-link" href="#">Research</a></li>
+                            <li class="nav-item px-2"><a class="nav-link" href="#"><button type="button" class="btn btn-outline-dark">Apply now</button></a></li>
+                            <li class="nav-item px-2"><a class="nav-link" href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
             </nav>
         </header>
+        
     
         <main>
             <section class="carousel">
@@ -340,7 +357,7 @@
                         </ul>
                     </div>
                     <div class="col-md-2">
-                        <h5>Contact</h5>
+                        <h5><a href="public/contact.html">Contact</a></h5>
                         <ul>
                             <li><a href="#">Email Us</a></li>
                             <li><a href="#">Locations</a></li>
@@ -362,6 +379,7 @@
     </div>
 
     <script src="JS/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
