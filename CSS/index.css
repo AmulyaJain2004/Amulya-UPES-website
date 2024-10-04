@@ -129,14 +129,7 @@ header {
     padding: 50px 0;
 }
 
-.department-section {
-    background-color: #f8f9fa;
-    padding: 50px 0;
-}
-
-.faculty-section {
-    padding: 50px 0;
-}
+/*----------------------------*/
 
 .footer {
     background-color: #343a40;
@@ -158,11 +151,6 @@ header {
 body {
     background-color: #f5f5f5;
 }
-/*
-.highlights-section {
-    padding: 60px 0;
-}
-*/
 
 .highlight-card {
     background-color: #fff;
@@ -253,13 +241,14 @@ body {
 /*----------------------------*/
 .department-section {
     padding: 60px 0;
-    background-color: #f8f9fa;
+    background-color: black;
 }
+
 .department-section h2 {
     font-size: 36px;
     margin-bottom: 40px;
     font-weight: bold;
-    color: #343a40;
+    color: white;
 }
 .school-card {
     background-color: #fff;
@@ -305,9 +294,9 @@ body {
     padding: 60px 0;
 }
 
-
+/*----------------------------*/
 .outcomes-section {
-    background: linear-gradient(135deg, #ee3232, #57f7ec);
+    background: linear-gradient(135deg, #868686, #a8e2e1);
     color: rgb(0, 0, 0);
     padding: 70px 0;
 }
@@ -341,7 +330,7 @@ body {
 }
 
 .campus-section {
-    background: linear-gradient(135deg, #f8126e, #f2ff3e);
+    background: linear-gradient(135deg, #f0b4cc, #f2ff3e);
     background-size: cover;
     color: white;
     padding: 70px 0;
