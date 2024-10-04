@@ -1,0 +1,39 @@
+#contact {
+    background-color: #f8f9fa;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#contact h2 {
+    color: #343a40;
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+button {
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.invalid-feedback {
+    display: none;
+}
+
+input:invalid, textarea:invalid {
+    border-color: #dc3545;
+}
+
+input:valid, textarea:valid {
+    border-color: #28a745;
+}
