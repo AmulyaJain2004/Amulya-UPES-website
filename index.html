@@ -12,7 +12,7 @@
 <body>
     <div id="splash-screen">
         <video id="logo-video" autoplay muted>
-            <source src="logo_reveal.mp4" type="video/mp4">
+            <source src="assets/logo_reveal.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
     </div>
@@ -68,6 +68,11 @@
             <section class="carousel">
                 <div id="carouselAutoplay" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
+                        <div class="carousel-item">
+                            <video id="homevideo" muted autoplay playsinline loop style="height: 45vh; width:100% ">
+                                <source src="assets/UPES_Website_Short.mp4" type="video/mp4">
+                            </video>
+                        </div>
                         <div class="carousel-item active">
                             <img src="assets/upesRank.jpg" class="d-block w-100" alt="...">
                         </div>
@@ -81,11 +86,11 @@
                             <img src="assets/upescrpackage.jpg" class="d-block w-100" alt="...">
                         </div>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselAutoplay" data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Previous</span>
                     </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselAutoplay" data-bs-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Next</span>
                     </button>
