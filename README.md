@@ -9,6 +9,11 @@ This project is a fresh redesign of the homepage for **University of Petroleum a
 
 ---
 
+Screenshot
+<img src="/assets/UPES-Ranked-1-in-Academic-Reputation.png" alt="Screenshot of the Website">
+
+---
+
 ## 📌 Features of the Redesign
 
 - **Modern Design**: The layout has been revamped to give a sleek and modern look, keeping user experience in mind.
