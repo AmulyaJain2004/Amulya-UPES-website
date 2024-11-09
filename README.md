@@ -11,6 +11,8 @@ This project is a fresh redesign of the homepage for **University of Petroleum a
 
 ### Demo Video and Screenshots:
 
+[Demo video](https://go.screenpal.com/watch/cZXQlanc8l4)
+
 <img src="assets/UPES-Ranked-1-in-Academic-Reputation.png" alt="Screenshot of the Website">
 
 ---
